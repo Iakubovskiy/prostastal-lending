@@ -1,0 +1,96 @@
+{
+  "title-meta": "Prostastal — Handmade Steel Art",
+  "description": "Order your custom engraved piece. Precision-crafted and made in Ukraine.",
+  "hero": {
+    "title": "Prostastal",
+    "hero-text": "Custom tactical gear",
+    "order-button": "Order now",
+    "main_site_url" : "https://prostastal.com/en/"
+  },
+  "pricing": {
+    "title": "Our pricing",
+    "main-text": "\uD83D\uDD28 Each piece is built individually\nTo match your style and mission\n\n✔\uFE0F Pick from 11 blade shapes + 4 skeleton-style options\n\uD83C\uDFA8 Choose from 26 handle colors\n\uD83D\uDEE1 Select 17 sheath designs\n⚙\uFE0F Use 5+ mounting systems\n✍\uFE0F Add personalized engravings\n\uD83D\uDCB0 Price varies by setup\n\uD83D\uDCB5 Average: 150–170 USD with international delivery included \uD83C\uDF0D"
+  },
+  "contact": {
+    "title": "Contact us",
+    "telegram": "Telegram",
+    "telegram-nick": "@prosta_STAL",
+    "viber": "Viber",
+    "viber-phone": "+380932440044",
+    "facebook": "Facebook Messenger",
+    "facebook-page": "prostastalUA",
+    "whatsapp": "WhatsApp",
+    "whatsapp-phone": "+380932440044",
+    "instagram": "Instagram",
+    "instagram-nick": "@prosta.stal",
+    "signal": "Signal",
+    "signal-phone": "+380932440044",
+    "form": {
+      "fullName": "Full name",
+      "phone": "Phone number/Email",
+      "select-messenger": "Choose messenger",
+      "submit": "Send",
+      "success": "Contact request is sent",
+      "error": "Error while sending the request"
+    }
+  },
+
+  "reviews": {
+    "title": "Reviews on Google maps",
+    "on_google_maps": "Check on Google Maps",
+    "more_reviews": "More reviews",
+    "read_more_on_maps": "Read more reviews on Google Maps",
+    "read_more": "Read more",
+    "preset": {
+      "0": {
+        "user": "Maciej",
+        "text": "Excellent communication via Instagram – prompt, clear, and highly professional. All questions were addressed quickly, which made the custom ordering process smooth and straightforward. The knife itself is impeccably crafted ...",
+        "originalUrl": "https://maps.app.goo.gl/ADmhYpoW6nnsYk5t8",
+        "rating": 5
+      },
+      "1": {
+        "user": "Negolin",
+        "text": "Very pleased with the result. And I'm already thinking about getting him a younger brother)))\nQuality as well as packaging at the highest level\uD83D\uDC4D\uD83D\uDC4D\uD83D\uDC4D\nI advise everyone and everyone\uD83D\uDC46\uD83D\uDC46\uD83D\uDC46\nGlory to Ukraine \uD83C\uDDFA\uD83C\uDDE6\uD83C\uDDFA\uD83C\uDDE6\uD83C\uDDFA\uD83C\uDDE6",
+        "originalUrl": "https://maps.app.goo.gl/mW1WphYvKn2svYFb7",
+        "rating": 5
+      },
+      "2": {
+        "user": "Марина Марина",
+        "text": "I am infinitely grateful to Prosta Stal for the knife. This is work from the heart, soul and with love. The order was urgent. And there was a minimum of finances. The company got into a position. And everything was done perfectly. ... I have never seen such joy from a knife in an adult man.\nI recommend Prosta Stal - it is quality, design and love.",
+        "originalUrl": "https://maps.app.goo.gl/yvFYBT28oFaLJx6F9",
+        "rating": 5
+      },
+      "3": {
+        "user": "Nataliia Huk",
+        "text": "I recommend. The knife was ordered as a gift for a French knife connoisseur. The owner of the knife is very satisfied. Special thanks for the packaging.",
+        "originalUrl": "https://maps.app.goo.gl/1ZYoyKPDDrUaZ2qw9",
+        "rating": 5
+      },
+      "4": {
+        "user": "Maru Vaher",
+        "text": "The customer service was truly amazing! They helped me out every step of the way, from choosing the perfect knife and designing it, as well as all the way through the shipping process. I received my package with no issues and am thrilled with the end result. The packaging was professional and they added a personal touch which you don’t get with larger companies....",
+        "originalUrl": "https://maps.app.goo.gl/24P1Jkhx6naefFdT6",
+        "rating": 5
+      }
+    }
+  },
+  "features": [
+    {
+      "icon": "delivery",
+      "text": "Delivery all over the world"
+    },
+    {
+      "icon": "stopwatch",
+      "text": "Quick producing"
+    },
+    {
+      "icon": "handshake",
+      "text": "Thousands Trust Us"
+    },
+    {
+      "icon": "creativity-idea-imagination",
+      "text": "Custom products"
+    }
+  ],
+  "features-title": "Features"
+}

@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Noto Sans Batak", sans-serif;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+button{
+  background-color: #4A5A3C;
+  color: #F5F3EB;
+  border-radius: 10px;
+  padding: 10px 15px;
+}
+
+button:hover{
+  background-color: #52682d;
+}
+
+.text-light{
+  color: #F5F3EB;
+}
+
+.text-dark{
+  color: #1C1C1C;
+}
