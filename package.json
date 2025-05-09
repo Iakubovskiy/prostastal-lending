@@ -7,7 +7,9 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "build:en": "LANG=en vite build",
+    "build:uk": "LANG=uk vite build"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
