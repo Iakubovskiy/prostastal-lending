@@ -27,10 +27,11 @@ function App() {
         <>
             <Helmet htmlAttributes={{ lang: detectLangFromSubdomain() }} />
             <Helmet>
-                <title>{t('title-meta')}</title>
+                <meta name="robots" content="all"/>
+                <link rel="canonical" href={t('meta.canonical')}/>
             </Helmet>
 
-            <HeroSection />
+            <HeroSection/>
             <PricesSection />
             <ContactSection />
             <ProductExamplesSection />
