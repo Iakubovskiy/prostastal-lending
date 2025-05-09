@@ -3,6 +3,7 @@ import { useEffect } from 'react';
 interface SeoHookProps {
     title: string;
     description: string;
+    canonical: string
     keywords: string[];
     ogTitle: string;
     ogDescription: string;
@@ -23,6 +24,7 @@ const setMetaTag = (attribute: string, key: string, content: string): void => {
 const useSeoHook = ({
                         title,
                         description,
+                        canonical,
                         keywords,
                         ogTitle,
                         ogDescription,
@@ -32,10 +34,12 @@ const useSeoHook = ({
     useEffect(() => {
         document.title = title;
         setMetaTag('name', 'description', description);
+        setMetaTag('name', 'canonical', canonical);
         setMetaTag('name', 'keywords', keywords.join(','));
         setMetaTag('property', 'og:title', ogTitle || title);
         setMetaTag('property', 'og:description', ogDescription || description);
         setMetaTag('property', 'og:image', ogImage);
+        setMetaTag('property', 'og:type', 'website');
         setMetaTag('property', 'og:url', ogUrl || window.location.href);
 
         return() => {};

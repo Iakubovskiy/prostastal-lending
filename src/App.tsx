@@ -15,6 +15,7 @@ function App() {
     useSeoHook({
         title:t('meta.title'),
         description: t('meta.description'),
+        canonical: t('meta.canonical'),
         keywords: t('meta.keywords').split(','),
         ogTitle: t('meta.ogTitle'),
         ogDescription: t('meta.ogDescription'),
