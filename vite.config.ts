@@ -12,7 +12,7 @@ export default defineConfig(() => {
             tailwindcss(),
         ],
         build: {
-            outDir: `dist-${lang}`,
+            outDir: `dist`,
             emptyOutDir: true,
             rollupOptions: {
                 input: resolve(__dirname, `buildLocales/${lang}/index.html`)
