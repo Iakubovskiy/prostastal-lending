@@ -1,6 +1,13 @@
 {
-  "title-meta": "Prostastal — Handmade Steel Art",
-  "description": "Order your custom engraved piece. Precision-crafted and made in Ukraine.",
+  "meta": {
+    "title": "Prostastal — Handmade Steel Art",
+    "description": "Order your custom engraved piece. Precision-crafted and made in Ukraine.",
+    "keywords": "custom,gear",
+    "ogTitle": "Prostastal — Handmade Steel Art",
+    "ogDescription": "Order your custom engraved piece. Precision-crafted and made in Ukraine.",
+    "ogImage": "https://en.prostastal.store/logo.png",
+    "ogUrl": "https://en.prostastal.store/"
+  },
   "hero": {
     "title": "Prostastal",
     "hero-text": "Custom tactical gear",

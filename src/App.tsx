@@ -7,19 +7,26 @@ import PricesSection from "./components/PricesSection.tsx";
 import GoogleReviewsSection from "./components/GoogleReviewsSection.tsx";
 import ContactSection from "./components/ContactSection.tsx";
 import {detectLangFromSubdomain} from "./i18n";
+import useSeoHook from './useSeoHook.ts';
 
 function App() {
     const { t } = useTranslation();
+
+    useSeoHook({
+        title:t('meta.title'),
+        description: t('meta.description'),
+        keywords: t('meta.keywords').split(','),
+        ogTitle: t('meta.ogTitle'),
+        ogDescription: t('meta.ogDescription'),
+        ogImage: t('meta.ogImage'),
+        ogUrl: t('meta.ogUrl')
+    });
 
     return (
         <>
             <Helmet htmlAttributes={{ lang: detectLangFromSubdomain() }} />
             <Helmet>
                 <title>{t('title-meta')}</title>
-                <meta name="description" content={t('description')} />
-                <meta property="og:title" content={t('title-meta')} />
-                <meta property="og:description" content={t('description')} />
-                <meta property="og:url" content={window.location.href} />
             </Helmet>
 
             <HeroSection />
