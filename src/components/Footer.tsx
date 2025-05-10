@@ -30,27 +30,26 @@ const Footer = () => {
                         <img src="/logo.png" alt="Prostastal" className="h-12 mb-4" />
                         <p className="text-sm text-center">© 2023 - {currentYear} </p>
                         <p className="text-sm text-center">Prostastal</p>
-                        <p className="text-sm text-center">Всі права захищені</p>
+                        <p className="text-sm text-center">{t('footer.all-rights-reserved')}</p>
                     </div>
                     
                     <div className="flex flex-col items-center md:items-start">
-                        <h3 className="text-lg font-semibold mb-4">Наш сайт</h3>
+                        <h3 className="text-lg font-semibold mb-4">{t('footer.our-website')}</h3>
                         <a 
                             href={t("hero.main_site_url")} 
                             target="_blank" 
                             rel="noopener noreferrer"
                             className="text-[#F5F3EB] hover:underline mb-2 flex items-center"
                         >
-                            <span>Відвідати основний сайт</span>
+                            <span>{t('footer.visit-website')}</span>
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                             </svg>
                         </a>
                     </div>
                     
-                    {/* Соціальні мережі */}
                     <div className="flex flex-col items-center md:items-start">
-                        <h3 className="text-lg font-semibold mb-4">Зв'язатися з нами</h3>
+                        <h3 className="text-lg font-semibold mb-4">{t('footer.contact-us')}</h3>
                         <div className="flex gap-4">
                             {socialLinks.map((link, index) => (
                                 <a 
@@ -71,7 +70,6 @@ const Footer = () => {
                             ))}
                         </div>
                         <a 
-                            href={`tel:${t("contact.viber-phone").replace(/\D/g, "")}`} 
                             className="text-[#F5F3EB] hover:underline mt-3"
                         >
                             {t("contact.viber-phone")}
@@ -80,7 +78,7 @@ const Footer = () => {
                 </div>
                 
                 <div className="border-t border-[#F5F3EB] opacity-30 mt-6 pt-6 text-center text-sm">
-                    <p>Handmade Steel Art — виготовлено в Україні з любов'ю</p>
+                    <p>{t('hero.hero-text')}</p>
                 </div>
             </div>
         </footer>

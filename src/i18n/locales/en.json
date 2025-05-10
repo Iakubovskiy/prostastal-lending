@@ -100,5 +100,11 @@
       "text": "Custom products"
     }
   ],
-  "features-title": "Features"
+  "features-title": "Features",
+  "footer": {
+    "all-rights-reserved": "All rights reserved",
+    "our-website": "Our website",
+    "visit-website": "Visit our website",
+    "contact-us": "Contact us"
+  }
 }
