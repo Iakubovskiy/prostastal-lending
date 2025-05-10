@@ -2,7 +2,7 @@ import { Helmet } from 'react-helmet';
 import { useTranslation } from 'react-i18next';
 import HeroSection from "./components/HeroSection.tsx";
 import FeaturesSection from "./components/FeaturesSection.tsx";
-import ProductExamplesSection from "./components/ProductExamplesSection.tsx";
+import ProductExamplesSection from "./components/PhotoReviewsSection.tsx";
 import PricesSection from "./components/PricesSection.tsx";
 import GoogleReviewsSection from "./components/GoogleReviewsSection.tsx";
 import ContactSection from "./components/ContactSection.tsx";
