@@ -7,6 +7,7 @@ import PricesSection from "./components/PricesSection.tsx";
 import GoogleReviewsSection from "./components/GoogleReviewsSection.tsx";
 import ContactSection from "./components/ContactSection.tsx";
 import {detectLangFromSubdomain} from "./i18n";
+import Footer from "./components/Footer.tsx";
 
 function App() {
     const { t } = useTranslation();
@@ -33,6 +34,7 @@ function App() {
                     </div>
                 </div>
             </div>
+            <Footer />
         </>
     );
 }

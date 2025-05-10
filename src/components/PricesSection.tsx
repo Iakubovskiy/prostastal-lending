@@ -20,7 +20,7 @@ const PricesSection = () => {
                     <div className="w-full h-full">
                         <iframe
                             src="https://www.youtube.com/embed/61-tWDeMgvY"
-                            className="w-full h-full rounded shadow"
+                            className="w-full h-full rounded shadow min-h-[450px]"
                             title="Pricing Video"
                             allowFullScreen
                         />

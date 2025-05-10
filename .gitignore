@@ -12,6 +12,7 @@ dist
 dist-*
 dist-ssr
 *.local
+/index.html
 
 .vscode/*
 !.vscode/extensions.json
