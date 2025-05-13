@@ -18,10 +18,10 @@ const SimplePhotoRotator = () => {
 
 
     return (
-        <div className="bg-[#F5F3EB] w-full flex flex-col items-center py-6 pb-16">
+        <div className="bg-[#4A5A3C] w-full flex flex-col items-center py-6 pb-16">
             <div className="flex items-center justify-center mb-6">
-                <img src="/icons/photoReview.svg" alt="Google maps Icon" className="w-8 h-8 lg:w-10 lg:h-10"/>
-                <h2 className="text-[32px] font-bold text-dark">Clients reviews</h2>
+                <img src="/icons/photoReview.svg" alt="Google maps Icon" className="w-8 h-8 lg:w-10 lg:h-10 mr-6"/>
+                <h2 className="text-[32px] font-bold text-light">Clients reviews</h2>
             </div>
             <div className="max-w-[500px] w-full rounded-xl overflow-hidden shadow-lg">
             <Swiper

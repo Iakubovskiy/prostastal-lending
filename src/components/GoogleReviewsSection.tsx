@@ -47,7 +47,7 @@ const GoogleReviewsSection = () => {
 
   return (
       <div className="max-w-xl mx-auto py-10" >
-        <div className="flex items-center justify-center lg:justify-start gap-3 mb-10 text-light">
+        <div className="flex items-center justify-center lg:justify-start gap-3 mb-10 text-dark">
           <img src="/icons/google-maps.svg" alt="Google maps Icon" className="w-8 h-8 lg:w-10 lg:h-10"/>
           <h2 className="text-[32px] font-bold">{t('reviews.title')}</h2>
         </div>
