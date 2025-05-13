@@ -8,6 +8,7 @@ import GoogleReviewsSection from "./components/GoogleReviewsSection.tsx";
 import ContactSection from "./components/ContactSection.tsx";
 import {detectLangFromSubdomain} from "./i18n";
 import Footer from "./components/Footer.tsx";
+import TelegramPromo from "./components/TelegramPromo.tsx";
 
 function App() {
     const { t } = useTranslation();
@@ -23,6 +24,7 @@ function App() {
             <HeroSection/>
             <PricesSection />
             <ContactSection />
+            <TelegramPromo />
             <ProductExamplesSection />
             <div className="bg-[#4A5A3C] p-4">
                 <div className="max-w-7xl mx-auto flex flex-col md:flex-row gap-6">
