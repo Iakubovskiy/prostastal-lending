@@ -6,7 +6,7 @@ const HeroSection = () => {
     return (
         <section
             id="hero"
-            className="relative w-full bg-cover bg-center text-white"
+            className="relative w-full bg-cover bg-center text-white pb-6"
             style={{ backgroundImage: 'url("/hero.jpeg")', height: '80vh' }}
         >
             <div className="absolute inset-0 bg-black opacity-20 z-0" />
@@ -24,7 +24,7 @@ const HeroSection = () => {
                 <p className="text-[6vw] lg:text-[36px] mb-6">
                     {t('hero.hero-text')}
                 </p>
-                <a href={url} target="_blank">
+                <a href={url} target="_blank" className="mt-17 sm:mt-0">
                     <button className="text-[5vw] lg:text-[32px] px-6 py-3 rounded-md transition-colors duration-200">
                         {t('hero.order-button')}
                     </button>

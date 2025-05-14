@@ -39,7 +39,8 @@
       "select-messenger": "Choose messenger",
       "submit": "Send",
       "success": "Contact request is sent",
-      "error": "Error while sending the request"
+      "error": "Error while sending the request",
+      "close": "Close form"
     }
   },
   "telegram-channel":{

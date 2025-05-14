@@ -50,7 +50,7 @@ const ContactSection = () => {
             icon: "viber.svg",
             label: t("contact.viber"),
             nick: t("contact.viber-phone"),
-            href: `viber://chat?number=${t("contact.viber-phone").replace(/\D/g, "")}`
+            href: `viber://chat?number=%2B${t("contact.viber-phone").replace(/\D/g, "")}`
         },
         {
             icon: "facebook.svg",
@@ -74,7 +74,7 @@ const ContactSection = () => {
             icon: "signal.svg",
             label: t("contact.signal"),
             nick: t("contact.signal-phone"),
-            href: `https://signal.me/#p/${t("contact.signal-phone").replace(/\D/g, "")}`
+            href: `https://signal.me/#p/${t("contact.signal-phone")}`
         }
     ];
 
@@ -111,7 +111,7 @@ const ContactSection = () => {
                                 onClick={() => setShowPopup(false)}
                                 className="bg-[#F5F3EB] text-[#4A5A3C] px-6 py-2 rounded-md font-medium hover:bg-white transition"
                             >
-                                {t("contact.form.close") || "Закрити"}
+                                {t("contact.form.close")}
                             </button>
                         </div>
                     </div>
@@ -156,15 +156,15 @@ const ContactSection = () => {
                         <input
                             type="text"
                             placeholder={t("contact.form.fullName")}
-                            className="p-3 rounded text-dark w-full"
+                            className="p-3 rounded text-dark w-full border border-[#4A5A3C] focus:outline-none focus:ring-1 focus:ring-[#4A5A3C]"
                             name="user_name"
                         />
                         <input
                             placeholder={t("contact.form.phone")}
-                            className="p-3 rounded text-dark w-full"
+                            className="p-3 rounded text-dark w-full border border-[#4A5A3C] focus:outline-none focus:ring-1 focus:ring-[#4A5A3C]"
                             name="contact_data"
                         />
-                        <select className="p-3 rounded text-dark w-full" name="messenger" required>
+                        <select className="p-3 rounded text-dark w-full border border-[#4A5A3C] focus:outline-none focus:ring-1 focus:ring-[#4A5A3C]" name="messenger" required>
                             <option value="">{t("contact.form.select-messenger")}</option>
                             <option value="Telegram">Telegram</option>
                             <option value="Viber">Viber</option>
