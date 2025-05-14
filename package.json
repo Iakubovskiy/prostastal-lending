@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "build:en": "LANG=en vite build",
-    "build:uk": "LANG=uk vite build"
+    "build:ua": "LANG=ua vite build"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",

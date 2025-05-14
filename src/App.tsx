@@ -6,16 +6,16 @@ import ProductExamplesSection from "./components/PhotoReviewsSection.tsx";
 import PricesSection from "./components/PricesSection.tsx";
 import GoogleReviewsSection from "./components/GoogleReviewsSection.tsx";
 import ContactSection from "./components/ContactSection.tsx";
-import {detectLangFromSubdomain} from "./i18n";
 import Footer from "./components/Footer.tsx";
 import TelegramPromo from "./components/TelegramPromo.tsx";
 
 function App() {
-    const { t } = useTranslation();
+    const { t, i18n } = useTranslation();
+    const currentLang = i18n.language;
 
     return (
         <>
-            <Helmet htmlAttributes={{ lang: detectLangFromSubdomain() }} />
+            <Helmet htmlAttributes={{ lang: currentLang }} />
             <Helmet>
                 <meta name="robots" content="all"/>
                 <link rel="canonical" href={t('meta.canonical')}/>

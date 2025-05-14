@@ -1,4 +1,5 @@
 import {useTranslation} from "react-i18next";
+import LanguageSwitcher from "./LanguageSwitcher";
 
 const HeroSection = () => {
     const { t } = useTranslation();
@@ -11,11 +12,14 @@ const HeroSection = () => {
         >
             <div className="absolute inset-0 bg-black opacity-20 z-0" />
 
-            <img
-                src="/logo.png"
-                alt="Logo"
-                className="absolute top-4 right-4 w-12 sm:w-12 md:w-18 lg:w-25 z-10"
-            />
+            <div className="absolute top-4 right-4 flex items-center gap-4 z-11">
+                <LanguageSwitcher />
+                <img
+                    src="/logo.png"
+                    alt="Logo"
+                    className="w-12 sm:w-12 md:w-18 lg:w-25"
+                />
+            </div>
 
             <div className="absolute inset-0 flex flex-col justify-center w-full items-center text-center px-4 z-10 pt-30">
                 <h1 className="text-[12vw] lg:text-[150px] font-bold leading-none mb-4">

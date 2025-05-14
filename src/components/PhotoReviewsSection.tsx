@@ -5,8 +5,10 @@ import 'swiper/css/effect-flip';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import {useEffect, useState} from "react";
+import {useTranslation} from "react-i18next";
 
 const SimplePhotoRotator = () => {
+    const { t } = useTranslation();
     const [images, setImages] = useState<string[]>([]);
 
     useEffect(() => {
@@ -21,7 +23,7 @@ const SimplePhotoRotator = () => {
         <div className="bg-[#4A5A3C] w-full flex flex-col items-center py-6 pb-16">
             <div className="flex items-center justify-center mb-6">
                 <img src="/icons/photoReview.svg" alt="Google maps Icon" className="w-8 h-8 lg:w-10 lg:h-10 mr-6"/>
-                <h2 className="text-[32px] font-bold text-light">Clients reviews</h2>
+                <h2 className="text-[32px] font-bold text-light">{t("client-reviews.title")}</h2>
             </div>
             <div className="max-w-[500px] w-full rounded-xl overflow-hidden shadow-lg">
             <Swiper

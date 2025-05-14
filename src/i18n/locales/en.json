@@ -48,6 +48,9 @@
     "subtitle": "Join now and don't miss out!",
     "main-text": "Be the first to see new arrivals, hot deals, and exclusive collections!"
   },
+  "client-reviews": {
+    "title": "Відгуки клієнтів"
+  },
   "reviews": {
     "title": "Reviews on Google maps",
     "on_google_maps": "Check on Google Maps",

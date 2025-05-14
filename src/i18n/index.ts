@@ -10,6 +10,11 @@ export function detectLangFromSubdomain(): 'en' | 'ua' {
     return 'en';
 }
 
+export function changeLanguage(language: 'en' | 'ua'): void {
+    i18n.changeLanguage(language);
+    document.documentElement.setAttribute('lang', language);
+}
+
 i18n
     .use(initReactI18next)
     .init({
