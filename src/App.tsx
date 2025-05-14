@@ -26,8 +26,12 @@ function App() {
             <ContactSection />
             <TelegramPromo />
             <ProductExamplesSection />
-            <div className="bg-[#F5F3EB] p-4">
-                <div className="max-w-7xl mx-auto flex flex-col md:flex-row gap-6">
+            <div className="relative bg-[#F5F3EB] p-4">
+                <div
+                    className="absolute inset-0 bg-cover bg-center opacity-50 z-0"
+                    style={{ backgroundImage: 'url("/bg-pattern.png")' }}
+                />
+                <div className="relative max-w-7xl mx-auto flex flex-col md:flex-row gap-6">
                     <div className="w-full md:w-1/2">
                         <FeaturesSection />
                     </div>

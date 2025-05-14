@@ -9,8 +9,13 @@ const TelegramPromo: React.FC = () => {
     const telegramLink = 'https://t.me/prostastal';
 
     return (
-        <section className="relative overflow-hidden">
-            <div className="relative z-0 bg-[#F5F3EB] py-8 px-3">
+        <section className="relative overflow-hidden bg-[#F5F3EB]">
+            <div
+                className="absolute inset-0 bg-cover bg-center opacity-50"
+                style={{ backgroundImage: 'url("/bg-pattern.png")' }}
+            />
+
+            <div className="relative z-1 py-8 px-3">
                 <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center md:items-start lg:pl-20">
                     <div className="flex flex-col items-center text-center gap-4 mb-6">
                         <div className="flex items-center gap-2">

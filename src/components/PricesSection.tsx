@@ -4,8 +4,13 @@ const PricesSection = () => {
     const {t} = useTranslation();
 
     return (
-        <section id="prices" className="py-16 px-4" style={{ background: 'rgba(194, 178, 128, 0.2)' }} >
-            <div className="max-w-6xl mx-auto flex flex-col lg:flex-row gap-10 items-stretch">
+        <section id="prices" className="py-16 px-4 relative bg-[#F5F3EB]">
+            <div
+                className="absolute inset-0 bg-cover bg-center opacity-50"
+                style={{ backgroundImage: 'url("/bg-pattern.png")' }}
+            />
+            
+            <div className="relative z-10 max-w-6xl mx-auto flex flex-col lg:flex-row gap-10 items-stretch">
                 <div className="flex-1 flex flex-col justify-start">
                     <div className="flex items-center justify-center lg:justify-start gap-3 mb-10">
                         <img src="/icons/pricetag.svg" alt="Pricetag Icon" className="w-8 h-8 lg:w-10 lg:h-10"/>
